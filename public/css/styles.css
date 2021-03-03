@@ -1,0 +1,286 @@
+html {
+    background-color: skyblue;
+}
+main {
+    min-height: 100vh;
+}
+body {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    background-color: white;
+}
+
+.header-menu {
+    background-color: skyblue;
+    position: fixed;
+    z-index: 2;
+    height: 70px;
+    width: 100%;
+}
+
+.app-name {
+    color: white;
+    font-family:cursive;
+    font-size: 30px;
+}
+.app-name:hover {
+    color: white;
+    opacity: 0.8;
+}
+#navbarDropdown {
+    color: white;
+}
+
+.all-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.top-title {
+    font-size: 26px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+.top-title-trend {
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+/* ログイン || 登録　*/
+
+
+
+.login-card {
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+}
+.register-card {
+    margin-top: 100px;
+    width: 600px;
+    height: 350px;
+}
+
+
+/* メニュー */
+
+.menu {
+    width: 300px;
+    min-height: 100vh;
+    max-height: 1000vh;
+    border-right: 1px solid #ddd;
+
+    padding-top: 20px;
+    margin: 0;
+    margin-top: 70px;
+    position: fixed;
+    background-color: white;
+}
+
+.top-menu {
+    height: 100%;
+    list-style: none;
+}
+
+.top-menu li {
+    font-size: 20px;
+    padding: 10px 10px 10px 25px;
+    margin: 5px;
+    width: 220px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.top-menu li:hover {
+    border: 1px solid #ddd;
+    background-color: #ddd;
+}
+
+/* 投稿一覧 */
+.post-container {
+    width: 740px;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 70px;
+    background-color: white;
+}
+
+.search-form {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.errors {
+    color: red;
+    background-color: rgb(255, 224, 229);
+    border-radius: 4px;
+    padding: 10px;
+    border: red 2px solid;
+}
+.table {
+    word-break: break-all;
+    word-wrap: break-all;
+}
+.post_image {
+    width: 100%;
+    text-align: center;
+    max-height: 400px;
+}
+.img{
+    max-height: 400px;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.posts {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.post {
+    border-bottom: #ddd 1px solid;
+    padding: 20px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+.post:hover {
+    background-color: #eee;
+}
+.user_info {
+    display: inline-flex;
+}
+.user_name {
+    font-weight: bold;
+}
+.user_id {
+    color: #aaa;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.post_text {
+    font-size: 25px;
+    padding: 10px;
+    word-break: break-all;
+}
+.test {
+    width: 500px;
+    height: 100px;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+.timestamp {
+    padding: 10px;
+    font-size: 20px;
+    color: #aaa;
+}
+.postUnder {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.postNav {
+    display: flex;
+}
+
+.reply {
+    margin: 10px;
+    float: right;
+}
+.replyDiv {
+    height: 50px;
+    line-height: 50px;
+}
+
+.likeBtn {
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    background-color: transparent;
+}
+
+.onLike {
+    color: rgb(207, 0, 97);
+}
+
+/* トレンド || 検索 */
+.trend-container {
+    width: 400px;
+    min-height: 100vh;
+    max-height: 1000vh;
+    border-left: 1px solid #ddd;
+    background-color: white;
+    position: fixed;
+    margin-top: 70px;
+    right: 0;
+}
+.trendTags {
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.trendTag {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ユーザー投稿 */
+
+.user-card {
+    margin-top: 100px;
+    width: 800px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+/* create */
+
+.content {
+    resize: none;
+    width:100%;
+    height:200px;
+    font-size: 24px;
+}
+
+.post-create-card {
+    margin-top: 100px;
+    width: 800px;
+    height: 420px;
+}
+
+/* detail */
+
+.detail-card {
+    margin-top: 100px;
+    width: 800px;
+    height: 420px;
+}
+.comment-container {
+    margin-bottom: 40px;
+}
+.comment-card {
+    width: 800px;
+    padding: 20px;
+}
+.comment-show {
+    margin: 10px;
+}
